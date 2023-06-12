@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website with Login & Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="nav_logo">AVANU |AV| MUSIC</a>
+
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="#" class="nav_link">Merchandise</a>
+            <a href="#" class="nav_link">Tour Dates</a>
+            <a href="#" class="nav_link">Contatti</a>
+          </li>
+        </ul>
+
+        <button class="button" id="form-open">Area privata</button>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+
+        <!-- AREA LOGIN -->
+        <center><h4>Per l' impegno<br>e lo sviluppo<br>del nostro progetto.<br>
+        Ogni giorno GRAZIE a tutti!<br> a nome mio..<br>Adrian<br>
+        AVANU (RO)
+        <br></h4></center>
+        <br>
+        <br>
+        <div class="form login_form">
+          <form action="../Dashboard-Sito/dashboard.html">
+            <h2>Accedi</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Inserisci la tua e-mail" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Inserisci la tua password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check">Ricorda dati</label>
+              </span>
+              <a href="#" class="forgot_pw">Password dimenticata?</a>
+            </div>
+
+            <button class="button">ACCEDI</button></a>
+
+            <div class="login_signup">Non possiedi un account? <a href="#" id="signup">Registrati</a></div>
+          </form>
+        </div>
+
+        <!-- AREA DI ACCESSO -->
+        <div class="form signup_form">
+          <form action="#">
+            <h2>Registrati ora</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Inserisci la tua e-mail" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Crea la tua password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Conferma la tua password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <button class="button">Registrati ora</button>
+
+            <div class="login_signup">Hai già un account presso Av Music? <a href="#" id="login">Accedi</a></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <center><footer> ©  Copyrights by AV Design Master | 2023 | <a href="link alla pagina delle informazioni legali">Cookies & Policy</a> | Official Website <a href="official website">www.AVANUMUSIC.com</a>  </footer></center>
+    <script src="script.js"></script>
+  </body>
+</html>
